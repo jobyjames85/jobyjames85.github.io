@@ -1567,3 +1567,65 @@ h6 {
     margin-bottom: 25px;
   }
 }
+
+/*------------------ New theme--*/
+.carousel1 .carousel1-item {
+  width: 100%;
+  height: 10%;
+  position: relative;
+  
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .carousel-item {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  
+  background-size: cover;
+  background-position: center;
+}
+/* width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/MCAFamily1.jpg") center top no-repeat;
+  background-size: cover; */
+
+.carousel .carousel-item:first-of-type { 
+  
+  background-image: url("../img/MCAFamily1.jpg") center top no-repeat;
+}
+
+.carousel .carousel-item:nth-of-type(2) {  
+ background-image: url("../img//flower-flowers-photography-pink-Favim.com-833641.jpg");
+}
+
+.carousel .carousel-item:last-of-type { 
+  background-image: url("../img//flowers.jpg"); 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-caption {
+	background: rgba(red, 0.3);
+	padding: 15px;
+	margin: 0;
+	font-size: 19px;
+	margin-bottom: 40px;
+}
+.carousel-progress {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background: rgba(red, 0.3);
+	display: block;
+	width: 100%;
+	height: 5px;
+}
+
+
+
